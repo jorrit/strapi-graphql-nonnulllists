@@ -1,0 +1,57 @@
+{
+  "name": "strapi-graphql-nonnulllists",
+  "version": "0.5.0",
+  "description": "Modifies the GraphQL schema to make lists and their contents non null",
+  "strapi": {
+    "name": "strapi-graphql-nonnulllists",
+    "displayName": "GraphQL Non Null Lists",
+    "description": "Modifies the GraphQL schema to make lists and their contents non null",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "tslib": "^2.7.0"
+  },
+  "devDependencies": {
+    "@strapi/types": "^5.0.0",
+    "@strapi/typescript-utils": "^4.6.0",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "apollo-server-core": "^3.12.1",
+    "apollo-server-plugin-base": "^3.7.2",
+    "graphql": "^15.9.0"
+  },
+  "author": {
+    "name": "Jorrit Schippers"
+  },
+  "maintainers": [
+    {
+      "name": "Jorrit Schippers"
+    }
+  ],
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -w",
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/**/*.js",
+    "strapi-server.js"
+  ],
+  "exports": {
+    "./strapi-server": {
+      "source": "./strapi-server.js",
+      "require": "./strapi-server.js",
+      "default": "./strapi-server.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorrit/strapi-graphql-nonnulllists.git"
+  }
+}

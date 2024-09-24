@@ -12,7 +12,7 @@
     "tslib": "^2.7.0"
   },
   "devDependencies": {
-    "@strapi/types": "^5.0.0",
+    "@strapi/types": "^4.25.11",
     "@strapi/typescript-utils": "^4.6.0",
     "typescript": "5.2.2"
   },

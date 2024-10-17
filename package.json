@@ -12,14 +12,13 @@
     "tslib": "^2.7.0"
   },
   "devDependencies": {
-    "@strapi/types": "^4.25.11",
-    "@strapi/typescript-utils": "^4.6.0",
-    "typescript": "5.2.2"
+    "@strapi/types": "^5.1.0",
+    "@strapi/typescript-utils": "^5.1.0",
+    "typescript": "5.3.2"
   },
   "peerDependencies": {
-    "apollo-server-core": "^3.12.1",
-    "apollo-server-plugin-base": "^3.7.2",
-    "graphql": "^15.9.0"
+    "@apollo/server": "4.11.0",
+    "graphql": "^16.8.1"
   },
   "author": {
     "name": "Jorrit Schippers"
@@ -40,14 +39,13 @@
   },
   "license": "MIT",
   "files": [
-    "dist/**/*.js",
-    "strapi-server.js"
+    "dist/**/*.js"
   ],
   "exports": {
     "./strapi-server": {
-      "source": "./strapi-server.js",
-      "require": "./strapi-server.js",
-      "default": "./strapi-server.js"
+      "source": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
     },
     "./package.json": "./package.json"
   },

@@ -6,7 +6,8 @@ The database layer of Strapi never returns null for relations and never has null
 
 ## Supported Strapi versions
 
-- v4.x.x
+- Strapi v4: Use plugin version 0.5.3
+- Strapi v5: Use plugin version 1
 
 ## Installation
 
@@ -20,9 +21,4 @@ npm install strapi-graphql-nonnulllists
 yarn add strapi-graphql-nonnulllists
 ```
 
-Add the following to your `config/plugins.js` or `config/plugins.ts` file:
-
-```js
-  'strapi-graphql-nonnulllists': {
-  },
-```
+The plugin is enabled automatically.

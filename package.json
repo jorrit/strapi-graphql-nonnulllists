@@ -14,7 +14,7 @@
   "devDependencies": {
     "@strapi/types": "^5.1.0",
     "@strapi/typescript-utils": "^5.1.0",
-    "typescript": "5.3.2"
+    "typescript": "5.4.4"
   },
   "peerDependencies": {
     "@apollo/server": "4.11.0",

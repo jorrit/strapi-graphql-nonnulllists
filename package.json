@@ -1,6 +1,6 @@
 {
   "name": "strapi-graphql-nonnulllists",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "description": "Modifies the GraphQL schema to make lists and their contents non null",
   "strapi": {
     "name": "strapi-graphql-nonnulllists",

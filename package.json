@@ -17,7 +17,7 @@
     "typescript": "5.4.4"
   },
   "peerDependencies": {
-    "@apollo/server": "4.11.0",
+    "@apollo/server": "4.13.0",
     "graphql": "^16.8.1"
   },
   "author": {
